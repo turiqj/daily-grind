@@ -59,28 +59,45 @@
 	</header>
     <main>
 		 <header><h3 class="slogan">You drink our coffee, we make large bucks!</h3></header>
-        <p>
-    		 <img src="images/pumpkin-spice-latte.jpg" alt="Our Pumpkin Spice Latte tastes great on a Fall Day!" id="coffee" />
-            <strong class="feature">Monday's Coffee Special:</strong> Monday's daily coffee special is <strong class="feature">Pumpkin Spice Latte</strong>, which makes us wish it was always Fall, as this is one of our top sellers!</p>
-        <p><span class="feature">Pumpkin Spice is </span> Gluten-free selfies normcore chillwave. Listicle 90's chambray, seitan cold-pressed try-hard Etsy authentic flexitarian vinyl. Meditation bespoke freegan, single-origin coffee cred seitan 90's gentrify brunch Williamsburg squid cold-pressed. Brooklyn readymade Tumblr wayfarers ethical.</p>
-        <p><span class="feature">Enjoy Pumpkin Spice with our </span> Polaroid iPhone plaid, Pitchfork Shoreditch paleo. Hashtag keytar chia scenester Pinterest, semiotics tousled food truck. YOLO scenester deep v, taxidermy paleo quinoa McSweeney's Carles VHS mustache Williamsburg gluten-free readymade cold-pressed. Truffaut Thundercats Schlitz, listicle organic Brooklyn paleo squid asymmetrical readymade migas gluten-free Austin.</p>
+        <div id="coffee-template"></div>
+		<!--
 		 <p>
-		 <b>At LargeBuck$ we aspire to: </b>Aesthetic gentrify YOLO McSweeney's typewriter single-origin coffee. Slow-carb hella listicle lomo, Helvetica single-origin coffee butcher stumptown. Chambray try-hard church-key mumblecore, tote bag PBR cardigan. Retro Austin Brooklyn, blog Intelligentsia gentrify jean shorts sartorial bicycle rights gastropub. Aesthetic wayfarers Pitchfork, tattooed Carles quinoa meh leggings distillery pork belly banjo. Umami cred lumbersexual skateboard, pork belly Tumblr vegan letterpress. Fixie bicycle rights butcher chillwave, gluten-free health goth Echo Park locavore whatever.
+    		 <img src="images/pumpkin-spice-latte.jpg" alt="Our Pumpkin Spice Latte tastes great on a Fall Day!" id="coffee" />
+            <strong>Monday's Coffee Special:</strong> Monday's daily coffee<strong>Pumpkin Spice Latte</strong>, which makes us wish it was always Fall, as this is one of our top sellers!
+		</p>
+		-->
+			<h3>Click below to see specials for other days</h3>
+			<p><a href="?day=0">Sunday</a></p>
+			<p><a href="?day=1">Monday</a></p>
+			<p><a href="?day=2">Tuesday</a></p>
+			<p><a href="?day=3">Wednesday</a></p>
+			<p><a href="?day=4">Thursday</a></p>
+			<p><a href="?day=5">Friday</a></p>
+			<p><a href="?day=6">Saturday</a></p>
+			
+
+
+
+
 
 		 </p>
 		<p>
-		Gluten-free selfies normcore chillwave. Listicle 90's chambray, seitan cold-pressed try-hard Etsy authentic flexitarian vinyl. Meditation bespoke freegan, single-origin coffee cred seitan 90's gentrify brunch Williamsburg squid cold-pressed. Brooklyn readymade Tumblr wayfarers ethical. Biodiesel VHS Godard High Life, tousled Banksy craft beer. Mlkshk direct trade locavore, mumblecore keytar artisan hashtag fap. Cred cronut Brooklyn, locavore art party small batch PBR semiotics ennui kitsch taxidermy mlkshk stumptown.
+		Hello, My name is <strong>Turiq Johnson</strong> and on this page I am currently using HTML/CSS & JavaScript to create a single page that rotates unique colors and content for each weekday (Sunday to Saturday) into the page.  
 		</p>
 		<p>
-		Polaroid iPhone plaid, Pitchfork Shoreditch paleo. Hashtag keytar chia scenester Pinterest, semiotics tousled food truck. YOLO scenester deep v, taxidermy paleo quinoa McSweeney's Carles VHS mustache Williamsburg gluten-free readymade cold-pressed. Truffaut Thundercats Schlitz, listicle organic Brooklyn paleo squid asymmetrical readymade migas gluten-free Austin. Etsy Wes Anderson 8-bit retro, polaroid synth paleo banh mi before they sold out Vice. Bushwick fap Intelligentsia, whatever Etsy High Life Kickstarter migas retro Banksy YOLO Carles yr raw denim. Gluten-free fixie taxidermy pop-up, actually Kickstarter flannel put a bird on it master cleanse.
+			The content includes:
+
+			One unique image, with appropriate and matching content in the alt tag.  
+			A paragraph or two of content that describes the daily item (paragraph must include the name of the highlighted weekday)
+			A unique color that supports the image and paragraph of content
 		</p>
 		<p>
-		Text provided by <a href="http://hipsum.co/" target="_blank">Hipster Ipsum</a>
+		
 		</p>
      </main>
 	 <footer>
 		<p><small>&copy; 2022 by 
-			YOUR NAME HERE, All Rights Reserved ~ 
+			TURIQ JOHNSON, All Rights Reserved ~ 
 			<a id="html-checker" href="#">Check HTML</a> ~ 
 			<a id="css-checker" href="#">Check CSS</a></small>
 	   </p>
@@ -91,6 +108,7 @@
 		document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
 		
 		document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
-    </script>	
+    </script>
+	<script src="js/main.js"></script>	
 </body>
 </html>
